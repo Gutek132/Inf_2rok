@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <script src="./obliczeniajajo.js" defer></script>
+    <body>
+        <h1>Obliczanie objętości jajka?</h1>
+        <label>Wpisz wartość pierwszej półosi:</label>
+        <input type="text" id="first-element" />
+
+        <label>Wpisz wartość drugiej półosi:</label>
+        <input type="text" id="second-element" />
+
+        <label>Wpisz wartość trzeciej półosi:</label>
+        <input type="text" id="third-element" />
+        <input
+        type="button"
+        value="Oblicz objętość jajka"
+        id="calculate"
+        />
+        <div class="elements-div">
+            <h2>Wynik:</h2>
+            <div class="elements-div__generated" id="elements"></div>
+        </div>
+    </body>
+</html>
